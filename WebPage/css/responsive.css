@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    body {
+        background-image: url("..//img/fondo.jpg");
+        background-size: cover;
+    }
+}
+
+
+
