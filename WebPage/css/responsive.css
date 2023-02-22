@@ -3,7 +3,19 @@
         background-image: url("..//img/fondo.jpg");
         background-size: cover;
     }
+    
+    #menu li{
+      display: inline-block;
+    }
+    
+    #menu li a {
+      text-decoration: none;
+      color: purple;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
 }
+
 
 
 
