@@ -3,6 +3,13 @@
         background-image: url("..//img/fondo.jpg");
         background-size: cover;
     }
+
+    .menu-container {
+        border: solid 1px gray;
+        text-align: center;
+        width: calc(100% - 10px);
+        border-radius: 20px;
+    }
     
     #menu li{
       display: inline-block;
@@ -11,8 +18,8 @@
     #menu li a {
       text-decoration: none;
       color: purple;
-      padding-left: 3px;
-      padding-right: 3px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 }
 
