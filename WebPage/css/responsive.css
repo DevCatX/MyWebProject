@@ -1,14 +1,15 @@
 @media (max-width: 600px) {
     body {
-        background-image: url("..//img/fondo.jpg");
-        background-size: cover;
+      background-image: url("..//img/fondo.jpg");
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
     }
 
-    .menu-container {
-        border: solid 1px gray;
-        text-align: center;
-        width: calc(100% - 10px);
-        border-radius: 20px;
+    #menu-container {
+      border: solid 1px gray;
+      text-align: center;
+      width: calc(100% - 10px);
+      border-radius: 20px;
     }
     
     #menu li{
@@ -18,9 +19,12 @@
     #menu li a {
       text-decoration: none;
       color: purple;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 1.1em;
     }
+
+
 }
 
 
