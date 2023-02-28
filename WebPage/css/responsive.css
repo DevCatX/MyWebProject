@@ -4,7 +4,6 @@
       background-attachment: fixed;
       background-repeat: no-repeat;
       font-family: 'Roboto', sans-serif;
-      font-size: 1.5em;
     }
 
     #menu-container {
@@ -20,10 +19,10 @@
     
     #menu li a {
       text-decoration: none;
-      color: purple;
+      color: #791179;
       padding-left: 5px;
       padding-right: 5px;
-      font-size: 0.7em;
+      font-size: 2.7vw;
     }
 
 
