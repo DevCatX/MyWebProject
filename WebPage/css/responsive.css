@@ -1,28 +1,39 @@
 @media (max-width: 600px) {
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    
     body {
       background-image: url("..//img/fondo.jpg");
       background-attachment: fixed;
       background-repeat: no-repeat;
       font-family: 'Roboto', sans-serif;
     }
-
-    #menu-container {
-      border: solid 1px gray;
-      text-align: center;
-      width: calc(100% - 10px);
-      border-radius: 20px;
+    
+   .clear-float{
+     float: none;
+     clear: both;
+   }
+   
+   #menu-container{
+     width: 100%;
+     border: 1px solid gray;
+     float: left;
+   }
+   
+    #menu-container ul li{
+      display: block;
+      float: left;
+      border-right: 1px solid gray;
     }
     
-    #menu li{
-      display: inline-block;
-    }
-    
-    #menu li a{
+    #menu-container ul li a{
+      display: block;
       text-decoration: none;
       color: #791179;
-      padding-left: 5px;
-      padding-right: 5px;
       font-size: 2.7vw;
+      padding: 15px;
     }
 
     footer{
