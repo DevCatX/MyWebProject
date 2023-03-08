@@ -18,22 +18,30 @@
    
    #menu-container{
      width: 100%;
-     border: 1px solid gray;
      float: left;
    }
    
     #menu-container ul li{
       display: block;
       float: left;
-      border-right: 1px solid gray;
+    }
+
+    #menu-container ul li:hover{
+      background-color: rgba(207,207,222,0.19371498599439774);
     }
     
     #menu-container ul li a{
       display: block;
       text-decoration: none;
-      color: #791179;
+      color: #2faabd;
       font-size: 2.7vw;
       padding: 15px;
+      text-shadow: 0px 0px 5px black;
+    }
+
+    #menu-container ul li a:hover{
+      color: #af57b0;
+      text-shadow: 3px 0px 5px black;
     }
 
     footer{
